@@ -1,0 +1,85 @@
+backend:
+  name: github
+  repo: TU-USUARIO/TU-REPOSITORIO
+  branch: main
+
+site_url: https://TU-SITIO.netlify.app
+locale: es
+
+media_folder: "imagenes/uploads"
+public_folder: "imagenes/uploads"
+
+collections:
+  - name: "inicio"
+    label: "Inicio (portada)"
+    files:
+      - name: "portada"
+        label: "Textos de la portada"
+        file: "data/inicio.json"
+        fields:
+          - { label: "Etiqueta superior", name: "etiqueta", widget: "string" }
+          - { label: "Título", name: "titulo", widget: "string" }
+          - { label: "Texto resaltado", name: "destacado", widget: "string" }
+          - { label: "Subtítulo", name: "subtitulo", widget: "text" }
+
+  - name: "eventos"
+    label: "Eventos"
+    files:
+      - name: "lista"
+        label: "Todos los eventos"
+        file: "data/eventos.json"
+        fields:
+          - label: "Eventos"
+            name: "eventos"
+            widget: "list"
+            summary: "{{fields.titulo}} — {{fields.fecha}}"
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Fecha", name: "fecha", widget: "string", hint: "Ej: 12 Oct 2025" }
+              - { label: "Lugar", name: "lugar", widget: "string" }
+              - { label: "Imagen", name: "imagen", widget: "image" }
+              - { label: "Mostrar en destacados", name: "destacado", widget: "boolean", default: false }
+
+  - name: "productos"
+    label: "Productos"
+    files:
+      - name: "lista"
+        label: "Lista de productos"
+        file: "data/productos.json"
+        fields:
+          - label: "Productos"
+            name: "productos"
+            widget: "list"
+            summary: "{{fields.nombre}} — {{fields.precio}}"
+            fields:
+              - { label: "Nombre", name: "nombre", widget: "string" }
+              - { label: "Precio", name: "precio", widget: "string" }
+              - { label: "Detalle", name: "detalle", widget: "string" }
+              - { label: "Imagen", name: "imagen", widget: "image" }
+              - label: "Ícono"
+                name: "icono"
+                widget: "select"
+                options:
+                  - { label: "Cámara", value: "fas fa-camera" }
+                  - { label: "Impresora", value: "fas fa-print" }
+                  - { label: "Reloj", value: "fas fa-clock" }
+                  - { label: "Carrito", value: "fas fa-shopping-cart" }
+                  - { label: "Descarga", value: "fas fa-download" }
+                  - { label: "Estrella", value: "far fa-star" }
+
+  - name: "proximos"
+    label: "Próximos eventos"
+    files:
+      - name: "lista"
+        label: "Lista de próximos eventos"
+        file: "data/proximos.json"
+        fields:
+          - label: "Próximos eventos"
+            name: "proximos"
+            widget: "list"
+            summary: "{{fields.titulo}} — {{fields.fecha}}"
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Fecha", name: "fecha", widget: "string" }
+              - { label: "Lugar", name: "lugar", widget: "string" }
+              - { label: "Imagen", name: "imagen", widget: "image" }

@@ -1,0 +1,28 @@
+{
+  "proximos": [
+    {
+      "titulo": "Copa Nacional de Cheerleading",
+      "fecha": "15 Nov 2026",
+      "lugar": "Medellín, Colombia",
+      "imagen": "imagenes/eventos/8.jpg"
+    },
+    {
+      "titulo": "Torneo de Gimnasia Artística",
+      "fecha": "06 Dic 2026",
+      "lugar": "Bogotá, Colombia",
+      "imagen": "imagenes/eventos/9.jpg"
+    },
+    {
+      "titulo": "Open Cheer Challenge 2027",
+      "fecha": "24 Ene 2027",
+      "lugar": "Cali, Colombia",
+      "imagen": "imagenes/eventos/10.jpg"
+    },
+    {
+      "titulo": "Copa de Gimnasia Rítmica",
+      "fecha": "21 Feb 2027",
+      "lugar": "Bucaramanga, Colombia",
+      "imagen": "imagenes/eventos/11.jpg"
+    }
+  ]
+}

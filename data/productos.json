@@ -1,0 +1,25 @@
+{
+  "productos": [
+    {
+      "nombre": "Paquete Digital",
+      "precio": "$120.000",
+      "detalle": "15 fotos editadas en alta resolución",
+      "imagen": "imagenes/productos/1.jpg",
+      "icono": "fas fa-camera"
+    },
+    {
+      "nombre": "Impresión Fine Art",
+      "precio": "$85.000",
+      "detalle": "Impresión 30x40 cm en papel mate",
+      "imagen": "imagenes/productos/2.jpg",
+      "icono": "fas fa-print"
+    },
+    {
+      "nombre": "Sesión Personalizada",
+      "precio": "$250.000",
+      "detalle": "1 hora de sesión + 25 fotos",
+      "imagen": "imagenes/productos/3.jpg",
+      "icono": "fas fa-clock"
+    }
+  ]
+}

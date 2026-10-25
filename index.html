@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CheerEliteCompany: pasión deportiva en imágenes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="logo.jpg" alt="CheerEliteCompany Logo" class="logo-img" />
+        <span class="logo-text"><span class="logo-sport">CheerElite</span><span class="logo-shots">Company</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#" class="nav-link active" id="navInicio">Inicio</a></li>
+        <li><a href="#" class="nav-link" id="navEventos">Torneos y Concursos</a></li>
+        <li><a href="#" class="nav-link" id="navProductos">Productos</a></li>
+        <li><a href="#" class="nav-link" id="verTodosProximos">Proximos eventos</a></li>
+      </ul>
+    <div class="nav-actions">
+      <button class="btn-icon" aria-label="Buscar"><i class="fas fa-search"></i></button>
+    </div>
+      <button class="burger" id="burger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-label" id="heroLabel">CAPTURAMOS LA PASIÓN DEL DEPORTE</p>
+      <h1 class="hero-title">
+        <span id="heroTitle">Tus momentos deportivos,</span>
+        <span class="hero-highlight" id="heroHighlight">en imágenes</span>
+      </h1>
+      <p class="hero-subtitle" id="heroSubtitle">Explora nuestra galería de eventos de Cheerleading.</p>
+      <div class="hero-search">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" placeholder="Buscar por evento, equipo, nombre..." />
+        <button class="btn-buscar">Buscar</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="imagenes/portada/images.jpg" alt="Deportista en acción" />
+    </div>
+  </section>
+
+  <!-- ========== EVENTOS DESTACADOS ========== -->
+  <section class="section eventos-section">
+    <div class="section-container">
+      <div class="eventos-left">
+        <div class="section-header">
+          <h2 class="section-title">Eventos destacados</h2>
+          <a href="#" id="verTodosEventos" class="see-all">Ver todos los eventos <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="eventos-grid" id="gridDestacados">
+          <!-- Card 1 -->
+          <div class="evento-card">
+            <div class="evento-img-wrap">
+              <img src="imagenes/eventos/0.jpg" alt="Campeonato Nacional de Porristas" />
+            </div>
+            <div class="evento-info">
+              <p class="evento-date"><i class="far fa-calendar"></i> 12 Oct 2025</p>
+              <h3 class="evento-name">Campeonato Nacional de Porristas</h3>
+              <p class="evento-loc"><i class="fas fa-map-marker-alt"></i> Bogotá, Colombia</p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="evento-card">
+            <div class="evento-img-wrap">
+              <img src="imagenes/eventos/1.jpg" alt="Torneo de Gimnasia Artística" />
+            </div>
+            <div class="evento-info">
+              <p class="evento-date"><i class="far fa-calendar"></i> 28 Sep 2025</p>
+              <h3 class="evento-name">Torneo de Gimnasia Artística</h3>
+              <p class="evento-loc"><i class="fas fa-map-marker-alt"></i> Medellín, Colombia</p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="evento-card">
+            <div class="evento-img-wrap">
+              <img src="imagenes/eventos/2.jpg" alt="Open Cheer Challenge" />
+            </div>
+            <div class="evento-info">
+              <p class="evento-date"><i class="far fa-calendar"></i> 14 Sep 2025</p>
+              <h3 class="evento-name">Open Cheer Challenge</h3>
+              <p class="evento-loc"><i class="fas fa-map-marker-alt"></i> Cali, Colombia</p>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="evento-card">
+            <div class="evento-img-wrap">
+              <img src="imagenes/eventos/3.jpg" alt="Copa de Gimnasia Rítmica" />
+            </div>
+            <div class="evento-info">
+              <p class="evento-date"><i class="far fa-calendar"></i> 30 Ago 2025</p>
+              <h3 class="evento-name">Copa de Gimnasia Rítmica</h3>
+              <p class="evento-loc"><i class="fas fa-map-marker-alt"></i> Bucaramanga, Colombia</p>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="evento-card">
+            <div class="evento-img-wrap">
+              <img src="imagenes/eventos/3.jpg" alt="Copa de Gimnasia Rítmica" />
+            </div>
+            <div class="evento-info">
+              <p class="evento-date"><i class="far fa-calendar"></i> 30 Ago 2025</p>
+              <h3 class="evento-name">Copa de Gimnasia Rítmica</h3>
+              <p class="evento-loc"><i class="fas fa-map-marker-alt"></i> Bucaramanga, Colombia</p>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="evento-card">
+            <div class="evento-img-wrap">
+              <img src="imagenes/eventos/3.jpg" alt="Copa de Gimnasia Rítmica" />
+            </div>
+            <div class="evento-info">
+              <p class="evento-date"><i class="far fa-calendar"></i> 30 Ago 2025</p>
+              <h3 class="evento-name">Copa de Gimnasia Rítmica</h3>
+              <p class="evento-loc"><i class="fas fa-map-marker-alt"></i> Bucaramanga, Colombia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visor de imagen lateral -->
+      <div class="galeria-viewer">
+        <div class="viewer-top">
+          <span class="viewer-counter">1 / 4</span>
+          <div class="viewer-actions">
+            <button class="viewer-btn-icon" id="viewerLikeBtn" aria-label="Me gusta">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="viewer-btn-icon"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+        <div class="viewer-img-wrap">
+          <button class="viewer-nav prev" id="viewerPrev"><i class="fas fa-chevron-left"></i></button>
+          <img src="imagenes/eventos/4.jpg" alt="Gimnasia Artística" id="viewerImg" />
+          <div class="viewer-watermark">CheerEliteCompany</div>
+          <button class="viewer-nav next" id="viewerNext"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="viewer-caption">
+          <h4>Gimnasia Artística - Torneo Nacional</h4>
+          <p>Medellín, Colombia | 28 Sep 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CÓMO FUNCIONA ========== -->
+  <section class="section como-section">
+    <div class="section-container">
+      <div class="como-left">
+        <div class="section-header">
+          <h2 class="section-title">Compra de productos</h2>
+          <a href="#" id="verMasProductos" class="see-all">Ver más información <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="pasos-grid">
+          <div class="paso">
+            <div class="paso-num-icon">
+              <span class="paso-num">1</span>
+              <div class="paso-icon-circle"><i class="fas fa-camera"></i></div>
+            </div>
+            <h3 class="paso-title">Fotos y videos de los eventos</h3>
+            <p class="paso-desc">Busca por fecha, deporte o evento y encuentra las fotos y/o videos que te gustan.</p>
+          </div>
+          <div class="paso">
+            <div class="paso-num-icon">
+              <span class="paso-num">2</span>
+              <div class="paso-icon-circle"><i class="fas fa-shopping-cart"></i></div>
+            </div>
+            <h3 class="paso-title">Productos</h3>
+            <p class="paso-desc">Vendemos productos en alta calidad con diferentes diseños</p>
+          </div>
+          <div class="paso">
+            <div class="paso-num-icon">
+              <span class="paso-num">3</span>
+              <div class="paso-icon-circle"><i class="fas fa-download"></i></div>
+            </div>
+            <h3 class="paso-title">Descarga fotos y videos</h3>
+            <p class="paso-desc">Puedes descargar las fotos y videos en alta calidad</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="como-right">
+        <ul class="features-list">
+          <li class="feature-item">
+            <div class="feature-icon purple"><i class="fas fa-camera"></i></div>
+            <div>
+              <strong>Fotografía profesional</strong>
+              <p>Imágenes de alta calidad, capturando cada detalle.</p>
+            </div>
+          </li>
+          <li class="feature-item">
+            <div class="feature-icon yellow"><i class="far fa-star"></i></div>
+            <div>
+              <strong>Eventos</strong>
+              <p>Cheerleading</p>
+            </div>
+          </li>
+          <li class="feature-item">
+            <div class="feature-icon green"><i class="fas fa-shield-alt"></i></div>
+            <div>
+              <strong>Compra segura</strong>
+              <p>Pagos confiables y entrega inmediata.</p>
+            </div>
+          </li>
+          <li class="feature-item">
+            <div class="feature-icon blue"><i class="fas fa-mobile-alt"></i></div>
+            <div>
+              <strong>Acceso desde cualquier lugar</strong>
+              <p>En tu celular, tablet o computador.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+<!-- ==== PRÓXIMOS EVENTOS Y CONCURSOS ==== -->
+<section class="section planes-section" id="proximos-eventos">
+  <div class="section-container">
+    <div class="planes-left">
+      <h2 class="section-title" id="titulo-eventos">Próximos eventos</h2>
+
+      <div class="planes-grid">
+
+        <!-- Anuncio 1 -->
+        <article class="plan-card">
+          <div class="plan-header">
+            <div class="plan-icon purple-icon">
+              <i class="far fa-calendar"></i>
+            </div>
+            <div>
+              <h3 class="plan-name">[Nombre del evento]</h3>
+              <p class="plan-sub">[Disciplina deportiva]</p>
+            </div>
+          </div>
+
+          <ul class="plan-features">
+            <li>
+              <i class="far fa-calendar"></i>
+              [Fecha del evento]
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              [Ciudad y lugar]
+            </li>
+          </ul>
+
+          <p class="paso-desc">[Breve descripción del evento]</p>
+        </article>
+
+        <!-- Anuncio 2 -->
+        <article class="plan-card">
+          <div class="plan-header">
+            <div class="plan-icon purple-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <div>
+              <h3 class="plan-name">[Nombre del concurso]</h3>
+              <p class="plan-sub">[Disciplina deportiva]</p>
+            </div>
+          </div>
+
+          <ul class="plan-features">
+            <li>
+              <i class="far fa-calendar"></i>
+              [Fecha del concurso]
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              [Ciudad y lugar]
+            </li>
+          </ul>
+
+          <p class="paso-desc">[Breve descripción del concurso]</p>
+        </article>
+
+        <!-- Anuncio 3 -->
+        <article class="plan-card">
+          <div class="plan-header">
+            <div class="plan-icon purple-icon">
+              <i class="fas fa-camera"></i>
+            </div>
+            <div>
+              <h3 class="plan-name">[Nombre de otro evento]</h3>
+              <p class="plan-sub">[Disciplina deportiva]</p>
+            </div>
+          </div>
+
+          <ul class="plan-features">
+            <li>
+              <i class="far fa-calendar"></i>
+              [Fecha del evento]
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              [Ciudad y lugar]
+            </li>
+          </ul>
+
+          <p class="paso-desc">[Breve descripción del evento]</p>
+        </article>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ========== PARTE EVENTOS ========== -->
+<section id="vista-eventos" class="vista-eventos" hidden>
+  <div class="vista-eventos-header">
+    <button id="volverInicio" class="btn-volver">
+      <i class="fas fa-arrow-left"></i> volver al inicio
+    </button>
+    <h2>Torneos y concursos</h2>
+    <p class="vista-eventos-sub">Torneos y concursos que hemos cubierto</p>
+  </div>
+
+  <div class="eventos-grid" id="gridEventos">
+    <article class="evento-card">
+      <div class="evento-img">
+        <img src="imagenes/eventos/4.jpg" alt="Ganadores Cheerleading - Torneo" loading="lazy" />
+      </div>
+      <div class="evento-info">
+        <span class="evento-fecha"><i class="far fa-calendar"></i> 28 Sep 2025</span>
+        <h3>Ganadores Cheerleading - Torneo</h3>
+        <p class="evento-lugar"><i class="fas fa-map-marker-alt"></i> Medellín, Colombia</p>
+      </div>
+    </article>
+
+    <article class="evento-card">
+      <div class="evento-img">
+        <img src="imagenes/eventos/5.jpg" alt="Campeonato Nacional de Cheerleading" loading="lazy" />
+      </div>
+      <div class="evento-info">
+        <span class="evento-fecha"><i class="far fa-calendar"></i> 12 Oct 2025</span>
+        <h3>Campeonato Nacional de Cheerleading</h3>
+        <p class="evento-lugar"><i class="fas fa-map-marker-alt"></i> Bogotá, Colombia</p>
+      </div>
+    </article>
+
+    <article class="evento-card">
+      <div class="evento-img">
+        <img src="imagenes/eventos/6.jpg" alt="Open Cheer Challenge" loading="lazy" />
+      </div>
+      <div class="evento-info">
+        <span class="evento-fecha"><i class="far fa-calendar"></i> 14 Sep 2025</span>
+        <h3>Open Cheer Challenge</h3>
+        <p class="evento-lugar"><i class="fas fa-map-marker-alt"></i> Cali, Colombia</p>
+      </div>
+    </article>
+
+    <article class="evento-card">
+      <div class="evento-img">
+        <img src="imagenes/eventos/7.jpg" alt="Copa de Cheerleading" loading="lazy" />
+      </div>
+      <div class="evento-info">
+        <span class="evento-fecha"><i class="far fa-calendar"></i> 30 Ago 2025</span>
+        <h3>Copa de Cheerleading</h3>
+        <p class="evento-lugar"><i class="fas fa-map-marker-alt"></i> Bucaramanga, Colombia</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+  <!-- ========== PARTE PRODUCTOS ========== -->
+<section id="vista-productos" class="vista-eventos" hidden>
+  <div class="vista-eventos-header">
+    <button id="volverInicioProd" class="btn-volver">
+      <i class="fas fa-arrow-left"></i> Volver al inicio
+    </button>
+    <h2>Todos nuestros productos</h2>
+    <p class="vista-eventos-sub">Paquetes y servicios de fotografía deportiva</p>
+  </div>
+
+  <div class="eventos-grid" id="gridProductos">
+    <article class="evento-card">
+      <div class="evento-img">
+        <img src="imagenes/eventos/7.jpg" alt="Almohada y cobija" loading="lazy" />
+      </div>
+      <div class="evento-info">
+        <span class="producto-precio">$120.000</span>
+        <h3>Almohada y cobija</h3>
+        <p class="evento-lugar"><i class="fas fa-camera"></i> 15 fotos editadas en alta resolución</p>
+      </div>
+    </article>
+
+    <article class="evento-card">
+      <div class="evento-img">
+        <img src="imagenes/productos/2.jpg" alt="Impresión Fine Art" loading="lazy" />
+      </div>
+      <div class="evento-info">
+        <span class="producto-precio">$85.000</span>
+        <h3>Impresión Fine Art</h3>
+        <p class="evento-lugar"><i class="fas fa-print"></i> Impresión 30x40 cm en papel mate</p>
+      </div>
+    </article>
+
+    <article class="evento-card">
+      <div class="evento-img">
+        <img src="imagenes/productos/3.jpg" alt="Sesión Personalizada" loading="lazy" />
+      </div>
+      <div class="evento-info">
+        <span class="producto-precio">$250.000</span>
+        <h3>Sesión Personalizada</h3>
+        <p class="evento-lugar"><i class="fas fa-clock"></i> 1 hora de sesión + 25 fotos</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ========== PARTE PROXIMOS EVENTOS ========== -->
+<section id="vista-proximos" class="vista-eventos" hidden>
+  <div class="vista-eventos-header">
+    <button id="volverInicioProx" class="btn-volver">
+      <i class="fas fa-arrow-left"></i> Volver al inicio
+    </button>
+    <h2>Próximos eventos</h2>
+    <p class="vista-eventos-sub">Lo que viene en el calendario deportivo</p>
+  </div>
+
+  <div class="eventos-grid" id="gridProximos">
+    <article class="evento-card">
+      <div class="evento-img">
+        <img src="imagenes/proximos/amor y amistad.jpg" alt="Copa de amor y amistad" loading="lazy" />
+      </div>
+      <div class="evento-info">
+        <span class="evento-fecha"><i class="far fa-calendar"></i> 15 Nov 2026</span>
+        <h3>Copa de amor y amistad</h3>
+        <p class="evento-lugar"><i class="fas fa-map-marker-alt"></i> Medellín, Colombia</p>
+      </div>
+    </article>
+
+    <article class="evento-card">
+      <div class="evento-img">
+        <img src="imagenes/eventos/9.jpg" alt="Torneo de Gimnasia Artística" loading="lazy" />
+      </div>
+      <div class="evento-info">
+        <span class="evento-fecha"><i class="far fa-calendar"></i> 06 Dic 2026</span>
+        <h3>Torneo de Gimnasia Artística</h3>
+        <p class="evento-lugar"><i class="fas fa-map-marker-alt"></i> Bogotá, Colombia</p>
+      </div>
+    </article>
+
+    <article class="evento-card">
+      <div class="evento-img">
+        <img src="imagenes/eventos/10.jpg" alt="Open Cheer Challenge 2027" loading="lazy" />
+      </div>
+      <div class="evento-info">
+        <span class="evento-fecha"><i class="far fa-calendar"></i> 24 Ene 2027</span>
+        <h3>Open Cheer Challenge 2027</h3>
+        <p class="evento-lugar"><i class="fas fa-map-marker-alt"></i> Cali, Colombia</p>
+      </div>
+    </article>
+
+    <article class="evento-card">
+      <div class="evento-img">
+        <img src="imagenes/eventos/11.jpg" alt="Copa de Gimnasia Rítmica" loading="lazy" />
+      </div>
+      <div class="evento-info">
+        <span class="evento-fecha"><i class="far fa-calendar"></i> 21 Feb 2027</span>
+        <h3>Copa de Gimnasia Rítmica</h3>
+        <p class="evento-lugar"><i class="fas fa-map-marker-alt"></i> Bucaramanga, Colombia</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="logo.jpg" alt="CheerEliteCompany Logo" class="logo-img" />
+        <span class="logo-text"><span class="logo-sport">CheerElite</span><span class="logo-shots">Company</span></span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Eventos</a></li>
+        <li><a href="#">Galería</a></li>
+        <li><a href="#">Planes</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+      <div class="footer-right">
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="footer-copy">© 2026 CheerEliteCompany. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="render.js"></script>
+
+  <script type="module">
+    import { createTimeline, stagger, splitText } from 'https://esm.sh/animejs';
+
+    const { chars } = splitText('#titulo-eventos', {
+      chars: {
+        wrap: 'clip',
+        clone: 'bottom'
+      },
+    });
+
+    createTimeline()
+      .add(chars, {
+        y: '-100%',
+        loop: true,
+        loopDelay: 350,
+        duration: 1900,
+        ease: 'inOut(2)',
+      }, stagger(150, { from: 'first' }));
+  </script>
+
+</body>
+</html>

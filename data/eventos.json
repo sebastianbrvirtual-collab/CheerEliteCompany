@@ -1,0 +1,60 @@
+{
+  "eventos": [
+    {
+      "titulo": "Campeonato Nacional de Porristas",
+      "fecha": "12 Oct 2025",
+      "lugar": "Bogotá, Colombia",
+      "imagen": "imagenes/eventos/0.jpg",
+      "destacado": true
+    },
+    {
+      "titulo": "Torneo de Gimnasia Artística",
+      "fecha": "28 Sep 2025",
+      "lugar": "Medellín, Colombia",
+      "imagen": "imagenes/eventos/1.jpg",
+      "destacado": true
+    },
+    {
+      "titulo": "Open Cheer Challenge",
+      "fecha": "14 Sep 2025",
+      "lugar": "Cali, Colombia",
+      "imagen": "imagenes/eventos/2.jpg",
+      "destacado": true
+    },
+    {
+      "titulo": "Copa de Gimnasia Rítmica",
+      "fecha": "30 Ago 2025",
+      "lugar": "Bucaramanga, Colombia",
+      "imagen": "imagenes/eventos/3.jpg",
+      "destacado": true
+    },
+    {
+      "titulo": "Ganadores Cheerleading - Torneo",
+      "fecha": "28 Sep 2025",
+      "lugar": "Medellín, Colombia",
+      "imagen": "imagenes/eventos/4.jpg",
+      "destacado": true
+    },
+    {
+      "titulo": "Campeonato Nacional de Cheerleading",
+      "fecha": "12 Oct 2025",
+      "lugar": "Bogotá, Colombia",
+      "imagen": "imagenes/eventos/5.jpg",
+      "destacado": true
+    },
+    {
+      "titulo": "Regional de Cheerleading - Valle",
+      "fecha": "14 Sep 2025",
+      "lugar": "Cali, Colombia",
+      "imagen": "imagenes/eventos/6.jpg",
+      "destacado": false
+    },
+    {
+      "titulo": "Copa Santander de Cheerleading",
+      "fecha": "30 Ago 2025",
+      "lugar": "Bucaramanga, Colombia",
+      "imagen": "imagenes/eventos/7.jpg",
+      "destacado": false
+    }
+  ]
+}
