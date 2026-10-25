@@ -3,11 +3,11 @@ backend:
   repo: sebastianbrvrtual-collab/CheerEliteCompany
   branch: main
 
-site_url: https://TU-SITIO.netlify.app
+site_url: https://cheerelitecompany.netlify.app
 locale: es
 
 media_folder: "imagenes/uploads"
-public_folder: "imagenes/uploads"
+public_folder: "/imagenes/uploads"
 
 collections:
   - name: "inicio"
