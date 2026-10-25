@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TU-USUARIO/TU-REPOSITORIO
+  repo: sebastianbrvrtual-collab/CheerEliteCompany
   branch: main
 
 site_url: https://TU-SITIO.netlify.app
