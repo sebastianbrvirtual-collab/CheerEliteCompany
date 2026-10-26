@@ -27,6 +27,8 @@ const galeria = [
 let currentImg = 0;
 
 const viewerImg     = document.getElementById('viewerImg');
+const viewerPrev    = document.getElementById('viewerPrev');
+const viewerNext    = document.getElementById('viewerNext');
 const viewerCounter = document.querySelector('.viewer-counter');
 const viewerCapH    = document.querySelector('.viewer-caption h4');
 const viewerCapP    = document.querySelector('.viewer-caption p');
