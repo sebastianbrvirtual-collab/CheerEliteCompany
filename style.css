@@ -1013,3 +1013,7 @@ html, body {
   font-size: 13px;
   color: #f43f5e;
 }
+
+@media (max-width: 640px) {
+  .viewer-nav { display: none !important; }
+}
