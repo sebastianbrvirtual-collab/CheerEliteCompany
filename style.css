@@ -718,13 +718,26 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
 }
 
 @media (max-width: 640px) {
-  .nav-links { display: none; }
-  .nav-actions { display: none; }
-  .burger { display: flex; }
-  .eventos-grid { grid-template-columns: 1fr; }
-  .pasos-grid { grid-template-columns: 1fr; }
-  .hero-title { font-size: 32px; }
-  .section-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .eventos-left .eventos-grid {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+  }
+  .eventos-left .eventos-grid .evento-card {
+    flex: 0 0 230px;
+    scroll-snap-align: start;
+  }
+  .evento-img-wrap {
+    height: 120px;
+  }
+}
+
+html, body {
+  overflow-x: clip;
+}
 
   /* Mobile menu open */
   .nav-links.open {
