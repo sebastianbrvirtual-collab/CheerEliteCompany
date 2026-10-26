@@ -377,8 +377,6 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
   transition: background 0.2s;
 }
 .viewer-nav:hover { background: rgba(139,92,246,0.7); }
-.viewer-nav.prev { left: 10px; }
-.viewer-nav.next { right: 10px; }
 
 .viewer-watermark {
   position: absolute;
