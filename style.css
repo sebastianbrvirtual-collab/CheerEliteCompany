@@ -717,18 +717,27 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
   .footer-links { justify-content: center; flex-wrap: wrap; gap: 12px; }
 }
 
+/* ===== Móvil: destacados deslizables ===== */
 @media (max-width: 640px) {
-  .viewer-nav {
-    display: none !important;
+  .eventos-left .eventos-grid {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
   }
+  .eventos-left .eventos-grid .evento-card {
+    flex: 0 0 230px;
+    scroll-snap-align: start;
+  }
+  .evento-img-wrap {
+    height: 120px;
+  }
+}
 
-  .burger {
-    display: flex !important;
-  }
-
-  .burger span {
-    background: #fff !important;
-  }
+html, body {
+  overflow-x: clip;
 }
 
   /* Mobile menu open */
