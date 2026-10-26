@@ -1011,3 +1011,5 @@ html, body {
 @media (max-width: 640px) {
   .viewer-nav { display: none !important; }
 }
+
+.viewer-nav, .lightbox-nav { display: none !important; }
