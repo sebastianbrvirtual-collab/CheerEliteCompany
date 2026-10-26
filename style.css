@@ -1013,3 +1013,22 @@ html, body {
 }
 
 .viewer-nav, .lightbox-nav { display: none !important; }
+
+/* ===== Móvil: destacados deslizables ===== */
+@media (max-width: 640px) {
+  .eventos-left .eventos-grid {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+  }
+  .eventos-left .eventos-grid .evento-card {
+    flex: 0 0 230px;
+    scroll-snap-align: start;
+  }
+  .evento-img-wrap {
+    height: 120px;
+  }
+}
